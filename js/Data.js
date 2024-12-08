@@ -1,20 +1,6 @@
  export const data = {
     guestCart: [],
-    CurrentUSer: 
-    {
-        "_id": "user3",
-        "Name": "Bob Buyer",
-        "Email": "buyer@example.com",
-        "Password": "hashed_password3",
-        "Phone": "123987456",
-        "Address": "789 Oak Lane, Shelbyville",
-        "Role": "User",
-        "CreatedAt": "2024-11-27T12:36:00Z",
-        "cart" : [
-            { "_id": "prod1", "Quantity": 2 },
-            { "_id": "prod2", "Quantity": 2 },
-        ],
-    },
+    CurrentUSer: null,
     Users: [
         {
             "_id": "user1",
@@ -44,11 +30,7 @@
             "Phone": "123987456",
             "Address": "789 Oak Lane, Shelbyville",
             "Role": "User",
-            "CreatedAt": "2024-11-27T12:36:00Z",
-            "cart" : [
-                { "_id": "prod1", "Quantity": 2 },
-                { "_id": "prod2", "Quantity": 2 },
-              ],
+            "CreatedAt": "2024-11-27T12:36:00Z"
         }
     ],
     Categories: [
@@ -223,3 +205,7 @@ export function getCurrentUser() {
  export function getUserByEmail(email) {
     return data.Users.find((user) => user.Email === email);
 }
+/*
+export function getCurrentUser() {
+    return data.CurrentUSer || { _id: null, name: 'Guest' }; // Return a default user if none exists
+  }*/

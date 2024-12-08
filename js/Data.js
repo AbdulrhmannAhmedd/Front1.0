@@ -222,4 +222,5 @@ export function getCurrentUser() {
 }
  export function getUserByEmail(email) {
     return data.Users.find((user) => user.Email === email);
+    console.log("")
 }

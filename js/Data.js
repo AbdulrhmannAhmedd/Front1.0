@@ -187,8 +187,8 @@ export const data = {
             "SellerID": "Seller1",
             "CategoryID": "cat1",
             "Images": [
-                "../assets/1.png",
-                "../assets/2.png"
+                "../assets/pic3.webp",
+                "../assets/pic3.webp"
             ],
             "CreatedAt": "2024-12-12T19:29:12.664Z",
             "NumOfSales": 15,
@@ -203,8 +203,8 @@ export const data = {
             "SellerID": "Seller1",
             "CategoryID": "cat1",
             "Images": [
-                "../assets/1.png",
-                "../assets/2.png"
+                "../assets/pic3.webp",
+                "../assets/pic3.webp"
             ],
             "CreatedAt": "2024-12-12T19:29:27.767Z",
             "NumOfSales": 12,
